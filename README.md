@@ -1,28 +1,27 @@
-# Browser Notification Demo
+# Browser Notification Demo MVP
 
-This demo showcases the use of browser notifications with different functionalities.
+This project demonstrates browser notifications with different options.
 
-## Overview
+## Setup and Running
 
-The `script.js` file implements the following browser notification features:
+1.  **Install dependencies:**
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-*   **Request Notification Permission:** Checks if the browser supports notifications and requests permission from the user.
-*   **Simple Notification:** Displays a basic notification with a title, body, and icon.
-*   **Notification with Actions:** Shows a notification with action buttons that the user can click.
-*   **Delayed Notification:** Displays a notification with actions after a 5-second delay.
+2.  **Run the Flask server:**
+    ```bash
+    python app.py
+    ```
+    The server will start, typically on `http://localhost:5000`.
 
-## Usage
-
-1.  Ensure that notifications are enabled in your browser settings.
-2.  Open the `index.html` file in your browser.
-3.  Click the buttons to trigger the different types of notifications.
-    *   **Simple Notification:** Displays a simple notification.
-    *   **Notification with Actions:** Displays a notification with "Open Google" and "Cancel" action buttons. Clicking "Open Google" will open Google in a new tab.
-    *   **Delayed Notification:** Displays a notification with "Open Bing" and "Cancel" action buttons after a 5-second delay. Clicking "Open Bing" will open Bing in a new tab.
+3.  **Open in browser:**
+    Navigate to `http://localhost:5000` in your web browser to use the demo.
 
 ## Files
 
-*   `index.html`: The main HTML file that contains the buttons and links to the JavaScript file.
-*   `script.js`: The JavaScript file that implements the notification functionality.
-*   `icon.png`: An icon used for the notifications.
-*   `README.md`: This file, providing information about the demo.
+-   `index.html`: The main HTML page with buttons.
+-   `script.js`: JavaScript for handling notification logic.
+-   `icon.png`: A dummy icon used for notifications.
+-   `app.py`: A Python Flask server to serve the files.
+-   `requirements.txt`: Python dependencies (Flask).
