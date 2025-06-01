@@ -1,0 +1,15 @@
+{
+  "name": "Notification Demo",
+  "short_name": "Notifications",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "icons": [
+    {
+      "src": "assets/icon.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    }
+  ]
+}
